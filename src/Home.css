@@ -432,13 +432,15 @@
     .home_section_three > h1{
         font-size: 60px;
         color: #003333;
+        padding-left: 5%;
     }
     .home_section_three > h3{
         font-size: 20px;
         color: lightgray;
         letter-spacing: 2px;
         text-align: left;
-        padding: 0 2.5%;
+        padding: 0 5%;
+        font-weight: 500;
     }
     .contact {
         margin: 50px 0;
