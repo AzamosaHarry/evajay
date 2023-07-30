@@ -1,0 +1,109 @@
+.product_body_header {
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./lynn-danielson-aEIMhuA-Ij8-unsplash.jpg');
+}
+.product_body_header > h1{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 5px;
+}
+.product_body_content {
+
+}
+.product_body_content_div1 {
+    min-height: 52vh;
+    background: #003333;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+.product_body_content_div1 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product_body_content_div1 > div > h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.product_body_content_div1 > div > p{
+    width: 70%;
+    font-size: 13px;
+    font-weight: 500;
+    color: lightgray;
+    text-align: center;
+}
+.product_font {
+    font-size: 100px;
+    color: #015a5a;
+}
+.product_body_content_div2 {
+    padding: 5% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product_body_content_div2 > div{
+    display: flex;
+}
+.product_body_content_div2_div_alt {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.product_body_content_div2 > div > div{
+    width: 50%;
+}
+.product_body_content_div2 > div > div > h1{
+   font-size: 50px;
+   font-weight: 600;
+}
+.product_body_content_div2 > div > div > h2{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+ }
+.product_body_content_div2 > div > div > p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+ }
+.product_body_content_img {
+    object-fit: cover;
+    height: 400px;
+}
+
+@media all and (max-width: 1250px) {
+    
+}
+@media all and (max-width: 600px) {
+    .product_body_content_div1 {
+        flex-direction: column;
+        padding: 4.5%;
+    }
+    .product_body_content_div1 > div{
+        margin-bottom: 30px;
+    }
+    .product_body_content_div2 {
+        padding: 5% 0;
+    }
+    .product_body_content_div2 > div{
+        flex-direction: column;
+    }
+    .product_body_content_img {
+        object-fit: cover;
+        width: 100%;
+    }
+    .product_body_content_div2 > div > div{
+        width: 100%;
+    }
+    .product_body_content_div2_div_alt {
+        flex-direction: column;
+    }
+}
