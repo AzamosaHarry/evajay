@@ -179,12 +179,12 @@
         width: 100%;
         padding: 0 5%;
         margin-bottom: 30px;
-        text-align: justify;
+        text-align: left;
     }
     .about_mission {
         width: 100%;
         padding: 0 5%;
-        text-align: justify;
+        text-align: left;
     }
     .about_img {
         width: 100%;
@@ -193,13 +193,16 @@
     .about_section_three > h1{
         font-size: 60px;
         color: white;
+        padding: 0 5%;
+
     }
     .about_section_three > h3{
         font-size: 20px;
         color: lightgray;
         letter-spacing: 2px;
         text-align: start;
-        padding: 0 2.5%;
+        padding: 0 5%;
+        font-weight: 500;
     }
     .about_section_one_div {
         top: 32vh;

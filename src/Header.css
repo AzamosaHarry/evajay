@@ -119,6 +119,10 @@
     object-fit: contain;
     height: 60px;
 }
+.evajay_header2{
+    object-fit: contain;
+    height: 60px;
+}
 
 @media (orientation: landscape) {
     .home_sidebar{
@@ -196,4 +200,11 @@
     .home_menu {
         display: block;
     }
+    .evajay_header {
+        margin: 10px;
+    }
+    .evajay_header2 {
+        margin: 30px;
+    }
+    
 }
