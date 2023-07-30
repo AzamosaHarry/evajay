@@ -25,7 +25,7 @@ function About() {
                         <p>At Evajay Farms Limited, we are a forward-thinking and innovative agricultural company, dedicated to transforming the agricultural landscape in Delta State, Nigeria. </p>
                     </div>
                 </section>
-                <section className='about_section_three'>
+                <section className='about_section_three'  id='with-hash-sustain'>
                     <h1>Partnership and Collaboration</h1>
                     <h3>At Evajay Farms Limited, we believe in the power of collaboration and partnerships. We welcome opportunities to work with like-minded organizations, retailers, distributors, and wholesalers who share our vision of promoting sustainable agriculture and supporting local communities.</h3>
                 </section>

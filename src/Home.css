@@ -99,14 +99,16 @@
     width: 28%;
     cursor: pointer;
 }
-.home_section_two_div1_div > img{
+.home_section_two_div1_div img{
     height: 300px;
+    width: 100%;
     border-radius: 5px;
     object-fit: cover;
     background: white;
     border-radius: 2px;
 }
-.home_section_two_div1_div > button{
+.home_section_two_div1_div button{
+    width: 100%;
     height: 50px;
     border: 2px solid black;
     border-radius: 1px;
@@ -168,9 +170,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    padding: 0 17%;
-    filter: brightness(0.75);
-      
+    padding: 0 17%; 
 }
 .section_test_div {
     width: 45%;
@@ -195,7 +195,7 @@
 }
 .section_test_div2 {
     width: 55%;
-    color: black;
+    color: white;
     padding-left: 100px;
 }
 .section_test_div2 > h3{

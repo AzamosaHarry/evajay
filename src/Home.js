@@ -9,7 +9,7 @@ import corn from './corn.jpg'
 import partners from './partner.jpg'
 import sustain from './sustain.jpg'
 import img2 from './img2.jpg'
-
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 function Home() {
 
@@ -46,8 +46,11 @@ function Home() {
                             <button>Sustainability</button>
                         </div>
                         <div className='home_section_two_div1_div' onClick={()=> {navigate('/about')}}>
-                            <img src={partners} alt='' />
-                            <button>Partnership and collaboration</button>
+                            
+                            <NavHashLink
+                                to="/sustainability#with-hash-sustain"
+                                ><img src={partners} alt='' />
+                            <button>Partnership and collaboration</button></NavHashLink>
                         </div>
                     </div>
                     <div className='home_section_two_div2'>

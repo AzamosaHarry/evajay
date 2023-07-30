@@ -5,6 +5,8 @@ import evajaywhite from './evajaywhite.png'
 import evajayblack from './evajayblack.png'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { HashLink, NavHashLink } from "react-router-hash-link";
+
 
 function Header() {
     const [menu, setMenu] = useState(false)
@@ -21,9 +23,10 @@ function Header() {
           </li>
           <li>
             <Link to='/sustainability' className='header_nav_list'>Sustainability</Link></li>
-          <li>         
-            <Link to='/' className='header_nav_list'>Contact us</Link>
-          </li>
+            <li><NavHashLink
+              to="/#with-hash-contact"
+              className='header_nav_list'
+              >Contact us</NavHashLink></li>
             
         </ul>
 

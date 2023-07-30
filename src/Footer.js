@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                     <div className="footer_body_one_div div2" style={{marginLeft:"30%"}}>
                         <h1>Contact us</h1>
-                        <p>info@email.com</p>
+                        <p>info@evajayfarms.com</p>
                         <p>+234-7068805292</p>
                     </div>
                 </div>

@@ -102,6 +102,7 @@
     }
     .product_body_content_div2 > div > div{
         width: 100%;
+        padding-left: 5%;
     }
     .product_body_content_div2_div_alt {
         flex-direction: column;
