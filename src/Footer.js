@@ -28,7 +28,7 @@ function Footer() {
             <div className='footer_body_two'>
                 <div className="footer_body_two_div">
                     <img src={evajaywhite} alt='' className='evajay' />
-                    <p>Our commitment to excellence, cutting-edge technology, and sustainable practices has earned us the trust of our customers and partners.</p>
+                    <p>Our commitment to excellence, cutting-edge technology, and viable practices has earned us the trust of our customers and partners.</p>
                 </div>
                 <div className="footer_body_two_div2">
                     <div className="footer_body_one_div div2">
