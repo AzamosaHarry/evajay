@@ -17,7 +17,7 @@ function Footer() {
                 <div className="footer_body_one_newsletter">
                     <h1>Subscribe to our newsletter</h1>
                     <p>Time is one 
-                    of the most precious thing you have when bootstrapping. You can't take time.</p>
+                    of the most precious things you have when bootstrapping. You can't take time.</p>
                     <div>
                         <input placeholder="Enter your email"/>
                         <button>Subscribe</button>

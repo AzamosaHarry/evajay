@@ -70,7 +70,7 @@ function Home() {
                 </section>
                 <section className='section_test'>
                     <div className='section_test_div'>
-                        <h3>Sustainability</h3>
+                        <h3>Green agriculture</h3>
                         <h1>Producing food with the <span style={{color:'#f2c744'}}>enviroment</span> in mind</h1>
                         <p>At Evajay Farms Limited, sustainability is not just a buzzword; it is a guiding principle that informs every aspect of our operations. We recognize the importance of preserving our environment and natural resources for future generations. </p>
                     </div>
