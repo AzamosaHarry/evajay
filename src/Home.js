@@ -66,7 +66,7 @@ function Home() {
                 </section>
                 <section className='home_section_three'>
                     <h1>A look into Evajay Farms</h1>
-                    <h3>We value our employees and their families and understand their importance to our farm and its success. We focus on the health of our soil and are pride ourselves on being good stewards for all our resources. At Evajay Farms, conservation and preservation are of the utmost importance to us.</h3>
+                    <h3>We value our employees and their families and understand their importance to our farm and its success. We focus on the health of our soil and pride ourselves on being good stewards for all our resources. At Evajay Farms, conservation and preservation are of the utmost importance to us.</h3>
                 </section>
                 <section className='section_test'>
                     <div className='section_test_div'>

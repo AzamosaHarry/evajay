@@ -32,13 +32,13 @@ function Footer() {
                 </div>
                 <div className="footer_body_two_div2">
                     <div className="footer_body_one_div div2">
-                        <h1>Delta state, Nigeria</h1>
-                        <p>100 plot adresss ,Delta state</p>
+                        <h1>Abuja, FCT, Nigeria</h1>
+                        <p>18 Mississippi street, Maitama, Abuja</p>
                     </div>
                     <div className="footer_body_one_div div2" style={{marginLeft:"30%"}}>
                         <h1>Contact us</h1>
                         <p>info@evajayfarms.com</p>
-                        <p>+234-7068805292</p>
+                        <p>+234-7069341391</p>
                     </div>
                 </div>
             </div>
