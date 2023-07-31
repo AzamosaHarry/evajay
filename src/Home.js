@@ -25,7 +25,7 @@ function Home() {
                     </video>
                     <div className='section_one_div'>
                         <h1>Welcome to <span style={{color: '#ffcc00'}}>Evajay Farms Limited</span> - Cultivating Excellence, Nurturing Sustainability.</h1>
-                        <p>Discover the Future of Modern Agriculture on Our 45+ Hectares of Fertile Farmland in Delta State, Nigeria. Sustainably Grown Yam, Cassava, Sweet Potato, Corn, and Plantain - From Our Farm to Your Table.</p>
+                        <p>Discover the Future of Modern Agriculture on Our 45+ Hectares of Fertile Farmland in Delta State, Nigeria. Viably Grown Yam, Cassava, Sweet Potato, Corn, and Plantain - From Our Farm to Your Table.</p>
                         <h3 onClick={()=> {navigate('/about')}}><Link to='/about' style={{textDecoration: 'none', color: 'black'}}>Learn more</Link></h3>
                     </div>
 
@@ -75,7 +75,7 @@ function Home() {
                         <p>At Evajay Farms Limited, sustainability is not just a buzzword; it is a guiding principle that informs every aspect of our operations. We recognize the importance of preserving our environment and natural resources for future generations. </p>
                     </div>
                     <div  className='section_test_div2'>
-                        <h3>Three sustainability pillars</h3>
+                        <h3>Three environmental pillars</h3>
                         <div className='section_test_div2_div'>
                         <div>
                             <ImLeaf className='sustain'/>
