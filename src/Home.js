@@ -24,7 +24,7 @@ function Home() {
                         <source src={bgvid} type="video/mp4" />
                     </video>
                     <div className='section_one_div'>
-                        <h1>Welcome to <span style={{color: '#ffcc00'}}>Evajay Farms Limited</span> - Cultivating Excellence, Nurturing Sustainability.</h1>
+                        <h1>Welcome to <span style={{color: '#ffcc00'}}>Evajay Farms Limited</span> - Cultivating Excellence, Nurturing the future.</h1>
                         <p>Discover the Future of Modern Agriculture on Our 45+ Hectares of Fertile Farmland in Delta State, Nigeria. Viably Grown Yam, Cassava, Sweet Potato, Corn, and Plantain - From Our Farm to Your Table.</p>
                         <h3 onClick={()=> {navigate('/about')}}><Link to='/about' style={{textDecoration: 'none', color: 'black'}}>Learn more</Link></h3>
                     </div>
